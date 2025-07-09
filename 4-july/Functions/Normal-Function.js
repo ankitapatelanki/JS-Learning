@@ -7,10 +7,7 @@ function pringLog(){
 // Calling 
 // pringLog();
 
-function sayHello(){
-    console.log("Hello,World!")
-}
-sayHello()
+
 
 // how to create parameterize function 
 
