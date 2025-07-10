@@ -121,7 +121,7 @@ console.log(countVowels("Hello web"))
 
 function getCountOfVowelsInString(prompt){
     let countNum = 0;
-   
+    
     for(let i=0; i<prompt.length; i++){
         let letter = prompt[i].toLowerCase();
         if(letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
