@@ -1,4 +1,5 @@
-// How to create normal or regular function: 
+// How to create normal or regular function:
+
 
 function pringLog(){
     console.log("This is printLog function...")
@@ -13,7 +14,7 @@ function pringLog(){
 
 function sum(number1, number2){
    return number1+number2
-}
+}     
 
 let total =  sum(340,450);
 console.log("total",total)
@@ -39,12 +40,7 @@ table(3)
 
 // print table 
 
-function printTable(value){
-        for(let i=1; i<=20; i++){
-            console.log(value , "*", i ,"=", value*i)
-        }
-}
-printTable(5)
+    
 
 // function printab(n){
 //     for(let i=1; i<=10; i++){

@@ -35,12 +35,12 @@
 // *
 // 6. What will be the output?
 
-// function updateObj(obj) {
-//   obj.name = "Updated";
-// }
-// let person = { name: "Original" };
-// updateObj(person);
-// console.log(person.name);
+function updateObj(obj) {
+  obj.name = "Updated";
+}
+let person = { name: "Original" };
+updateObj(person);
+console.log(person.name);
 // // *
 // 7. What will be the output?
 

@@ -1,22 +1,15 @@
-// Arrow Function : 
+// Arrow Function :
 // Arrow functions were introduced in ES6.
 // Arrow functions allow us to write shorter function syntax:
 
 let myFun = ()=>{
-
 }
-
 console.log("myFun", myFun)
-
 let myFun2 = function(){
-
 }
-
 console.log("myFun2", myFun2)
 
-
-
-
+// 
 function test(){}
 let myFun3 = test;
 console.log(

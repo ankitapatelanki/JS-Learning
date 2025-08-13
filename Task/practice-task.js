@@ -2,7 +2,7 @@
 // let arr = [33,50,66,88,90,1,3,5]; 
 // make this array even : [ 50,66,88,90];
 
-// // function getCountOfVowelsInString(prompt){
+// function getCountOfVowelsInString(prompt){
 //     let countNum = 0;
    
 //     for(let i=0; i<prompt.length; i++){

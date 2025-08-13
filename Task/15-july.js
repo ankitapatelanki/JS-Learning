@@ -94,15 +94,6 @@ console.log(merged); // { a: 1, b: 5, c: 10 }
 
 
 
-
-
-
-
-
-
-
-
-
 // 10. What is Javascript and how is it work?
 // *javaScript is the most popular language in the world for web development . It is also known as scripting language.
 // There are two type of scripting language 
