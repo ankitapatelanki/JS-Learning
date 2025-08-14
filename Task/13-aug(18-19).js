@@ -201,7 +201,7 @@
 
 // Q7. Which code removes duplicates from an array arr?
 
-// [...new Set(arr)]
+// [...new Set(arr)]    set ek data structure h jo unique value leta h ye value repeat nhi krta
 // arr.unique()
 // removeDuplicates(arr)
 // Array.removeDuplicates(arr)

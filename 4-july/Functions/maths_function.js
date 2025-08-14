@@ -7,15 +7,22 @@
 
 // Math.floor(x): Rounds x down to the nearest integer.
 // Math.ceil(x): Rounds x up to the nearest integer.
+
+
 let value = Math.max(...[0, 180, 130, 200, 38]);
 console.log(value)
+
+
 let value2 = Math.max(0, 180, 130, 200, 38);
 console.log(value2)
+
+
+
 // Math.min
 let value1 = Math.min(0, 180, 130, 200, 38);
 console.log(value1)
 
-let value3= Math.abs(-14545);
+let value3= Math.abs(-14545,5-75757);
 console.log("abs",value3)
 
 let value4 = Math.sqrt(36);
@@ -32,3 +39,8 @@ console.log("floor",value7);
 
 let value8 = Math.ceil(89.00);
 console.log("ceil",value8);
+
+
+let str = "string"
+console.log(str.split('').reverse().join(''))
+// split = 
