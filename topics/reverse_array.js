@@ -89,7 +89,26 @@ reverseString();
 
 
 
+// Reverse Array using Two Pointer algorithm
 
+let arr = [1, 2, 3, 4, 5];
+
+let leftPointer = 0;
+let rightPointer = arr.length - 1;
+
+// don't provide me hint okay
+
+while (leftPointer < rightPointer) {
+  // Logic
+  arr[leftPointer] = arr[leftPointer] + arr[rightPointer];
+  arr[rightPointer] = arr[leftPointer] - arr[rightPointer];
+  arr[leftPointer] = arr[leftPointer] - arr[rightPointer];
+
+  leftPointer++;
+  rightPointer--;
+}
+
+console.log("arr", arr); // [5, 4, 3, 2, 1]
 
 
 
