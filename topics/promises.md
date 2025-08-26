@@ -1,7 +1,7 @@
 JavaScript Promises - A Complete Beginner’s Guide
 
 ### What is a Promise?
-promise is an object that tells whether our asynchronous operation is completed or not
+promise is an object that tells whether our asynchronous(like : db calls , api calls ,Axios call etc.) operation is completed or not
  
 English:
 A Promise in JavaScript is like a container for a future value. Imagine you're ordering food online — you place the order now, but the food will arrive later. Similarly, a Promise is a way to write asynchronous code, meaning code that runs now but finishes later.

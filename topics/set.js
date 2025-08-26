@@ -5,15 +5,6 @@
 // } 
 // console.log(sum);
 
-//Q2. reverse str hello
-
-let str = "h e l l o"; // single whitespace ' '
-let str2 = "hello";  // no whitespace ''
-let strArr = str2.split('')
-console.log("strArr",strArr)  // ['h','e','l','l','o'] // ['o','l','l','e','h'].join() => 'olleh'
-let reversedStr = strArr.reverse().join('')
-console.log("reversedStr",reversedStr)  // 'olleh'
-// str.split('').reverse().join('')
 
 
 // ================= >>
@@ -25,6 +16,7 @@ console.log("reversedStr",reversedStr)  // 'olleh'
 // 4. Maps
 
 // Sets
+// Set is a datatype. 
 // - A Set is a collection of values, where each value must be unique.
 // - Sets are iterable, and you can use methods like add(), delete(), and has().
 
@@ -58,23 +50,9 @@ console.log("set: ",set, set.size, set.has(10), set.has(20));
 let arr = [10, 20, 30, 40, 50, 10, 20, 30, 40, 50];
 
 let set1 = new Set(arr);
-console.log(set1)
+console.log("set1",set1)
 let newArr = [...set1]
-console.log(newArr)
-
-
-
-// Theory
-// Set, Diff set & Array, 
-// split
-// join
-// reverse()
-
-// Set & Array
-
-
-
-
+console.log("newArr",newArr)
 
 
 
@@ -87,7 +65,6 @@ let arr1 = [1, 2, 3, 4, 5];
 let leftPointer = 0;
 let rightPointer = arr1.length - 1;
 
-// don't provide me hint okay
 
 while (leftPointer < rightPointer) {
   // Logic

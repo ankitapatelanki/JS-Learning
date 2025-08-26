@@ -29,3 +29,23 @@ console.log(y)     //y=30
 
 
 
+// Reverse Array using Two Pointer algorithm
+
+
+let arr1 = [1, 2, 3, 4, 5];
+
+let leftPointer = 0;
+let rightPointer = arr1.length - 1;
+
+
+while (leftPointer < rightPointer) {
+  // Logic
+  arr1[leftPointer] = arr1[leftPointer] + arr1[rightPointer];
+  arr1[rightPointer] = arr1[leftPointer] - arr1[rightPointer];
+  arr1[leftPointer] = arr1[leftPointer] - arr1[rightPointer];
+
+  leftPointer++;
+  rightPointer--;
+}
+
+console.log("arr1", arr1); // [5, 4, 3, 2, 1] 
