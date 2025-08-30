@@ -1,3 +1,4 @@
+
 // Remove space from every element and give me an array which contains correct string formate;
 let arr = ["   ramji", "radhe", "ankit   ", "    pinki   "];
 
